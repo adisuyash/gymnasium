@@ -43,21 +43,27 @@
                     required>
             </div>
             <div class="form-group">
-                <label for="email">Email Address : </label><input type="email" placeholder="Enter your email address" id="email"
+                <label for="email">Email Address : </label><input type="email" placeholder="Enter your email address"
+                    id="email" required>
+            </div>
+            <div class="form-group">
+                <label for="number">Phone Number : </label><input type="tel" placeholder="Enter your phone number"
+                    id="number" required>
+            </div>
+            <div class="form-group">
+                <label for="dob">Date of Birth : </label><input type="date" placeholder="Enter your name" id="dob"
                     required>
             </div>
             <div class="form-group">
-                <label for="number">Phone Number : </label><input type="tel" placeholder="Enter your phone number" id="number" required>
+                Gender : <input type="radio" name="Gender" id="Male" required><label for="Male" id="Male">Male</label>
+                <input type="radio" name="Gender" id="Female" required><label for="Female" id="Female">Female</label>
+                <input type="radio" name="Gender" id="Others" required><label for="Others" id="Others">Others</label>
             </div>
             <div class="form-group">
-                <label for="dob">Date of Birth : </label><input type="date" placeholder="Enter your name" id="dob" required>
-            </div>
-            <div class="form-group">
-                Gender : <input type="radio" name="Gender" required>Male <input type="radio" name="Gender">Female <input
-                    type="radio" name="Gender">Other
-            </div>
-            <div class="form-group">
-                Fitness Program : <input type="checkbox">Beginner <input type="checkbox">Intermediate
+                Fitness Program : <input type="radio" name="Program" id="Beginner"><label for="Beginner"
+                    id="Beginner">Beginner</label>
+                <input type="radio" name="Program" id="Intermediate"><label for="Intermediate"
+                    id="Intermediate">Intermediate</label>
             </div>
             <button class="btn">Submit Now</button>
         </form>

@@ -42,7 +42,8 @@ body {
   text-decoration: none;
   padding: 50px;
 }
-.navbar li a:hover {
+.navbar li a:hover,
+.navbar li a:active {
   color: white;
 }
 
@@ -81,4 +82,20 @@ h2 {
   word-spacing: 8px;
   letter-spacing: 2px;
   text-align: center;
+  position: relative;
+  bottom: 25px;
+  font-size: 25px;
+}
+
+div.form-group {
+  border: 2px solid white;
+  display: block;
+  margin: auto;
+  padding: 14px;
+  word-spacing: 7px;
+  letter-spacing: 2px;
+}
+div.form-group input {
+  border: 1px solid white;
+  position: absolute;
 }
