@@ -1,0 +1,84 @@
+body {
+  font-family: "Outfit", sans-serif;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  background-image: url("../img/bg.jpg");
+}
+
+.left {
+  display: inline-block;
+  border: 1px solid white;
+  width: 20%;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  border: 1px solid white;
+}
+.left img {
+  display: block;
+  width: 20%;
+  filter: invert(100%);
+  margin: auto;
+}
+.left div {
+  text-align: center;
+}
+
+.mid {
+  display: block;
+  width: 50%;
+  margin: 20px auto;
+  border: 1px solid white;
+}
+.navbar li {
+  font-size: 18px;
+  word-spacing: 4px;
+  color: white;
+  display: inline-block;
+}
+.navbar li a {
+  color: grey;
+  text-decoration: none;
+  padding: 50px;
+}
+.navbar li a:hover {
+  color: white;
+}
+
+.right {
+  width: 20%;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+  border: 1px solid white;
+  padding: 10px;
+}
+.btn {
+  cursor: pointer;
+  padding: 6px;
+  background-color: black;
+  color: white;
+  margin: 0px 14px;
+  border: 1px solid white;
+  border-radius: 4px;
+  font-size: 14px;
+}
+.btn:hover {
+  background-color: rgb(35, 35, 35);
+}
+
+main {
+  border: 2px solid white;
+  margin: 50px 50px;
+  padding: 50px 30px;
+  width: 35%;
+  position: absolute;
+  right: 100px;
+}
+h2 {
+  border: 2px solid white;
+  word-spacing: 8px;
+  letter-spacing: 2px;
+  text-align: center;
+}
