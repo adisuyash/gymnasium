@@ -97,5 +97,9 @@ div.form-group {
 }
 div.form-group input {
   border: 1px solid white;
-  position: absolute;
+}
+.btn.submit{
+  margin-top: 15px ;
+  position: relative;
+  right: 15px;
 }
