@@ -39,22 +39,25 @@
         <h2>Join the best gym of Lucknow !</h2>
         <form action="noaction.php">
             <div class="form-group">
-                Full Name : <input type="text" placeholder="Enter your name">
+                <label for="name">Full Name : </label><input type="text" placeholder="Enter your name" id="name"
+                    required>
             </div>
             <div class="form-group">
-                Email Address : <input type="email" placeholder="Enter your email address">
+                <label for="email">Email Address : </label><input type="email" placeholder="Enter your email address" id="email"
+                    required>
             </div>
             <div class="form-group">
-                Phone Number : <input type="number" placeholder="Enter your phone number">
+                <label for="number">Phone Number : </label><input type="tel" placeholder="Enter your phone number" id="number" required>
             </div>
             <div class="form-group">
-                Date of Birth : <input type="date" placeholder="Enter your name">
+                <label for="dob">Date of Birth : </label><input type="date" placeholder="Enter your name" id="dob" required>
             </div>
             <div class="form-group">
-                Gender : <input type="checkbox" >Male <input type="checkbox" >Female <input type="checkbox" >Other
+                Gender : <input type="radio" name="Gender" required>Male <input type="radio" name="Gender">Female <input
+                    type="radio" name="Gender">Other
             </div>
             <div class="form-group">
-                Fitness Program : <input type="checkbox" >Noob <input type="checkbox" >Pro
+                Fitness Program : <input type="checkbox">Beginner <input type="checkbox">Intermediate
             </div>
             <button class="btn">Submit Now</button>
         </form>
